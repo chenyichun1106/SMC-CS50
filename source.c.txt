@@ -1,0 +1,50 @@
+/******************************************************************************
+Name: YiChun Chen
+05/06/2023
+CS 50
+StructureProject
+                            Online C Compiler.
+                Code, Compile, Run and Debug C program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <stdio.h>
+
+int main() {
+    int i, quiz1, quiz2, midterm, final;
+    float average;
+    char letter_grade;
+
+    for (i = 1; i <= 5; i++) {
+        printf("Enter the record for student number: %d\n", i);
+
+        printf("Enter the quiz grades (out of 10): ");
+        scanf("%d %d", &quiz1, &quiz2);
+
+        printf("Enter the midterm and final exam grades (out of 100): ");
+        scanf("%d %d", &midterm, &final);
+
+        average = (quiz1*5+ quiz2 *5 )*0.25+ midterm *0.25 + final *0.50;
+
+        if (average >= 90) {
+            letter_grade = 'A';
+        } else if (average >= 80) {
+            letter_grade = 'B';
+        } else if (average >= 70) {
+            letter_grade = 'C';
+        } else if (average >= 60) {
+            letter_grade = 'D';
+        } else {
+            letter_grade = 'F';
+        }
+
+        printf("The record for student number: %d\n", i);
+        printf("The quiz grades are: %d %d\n", quiz1, quiz2);
+        printf("The midterm and exam grades are: %d %d\n", midterm, final);
+        printf("The numeric average is: %.2f\n", average);
+        printf("The letter grade assigned is %c\n", letter_grade);
+    }
+
+    return 0;
+}

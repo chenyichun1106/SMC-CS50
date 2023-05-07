@@ -1,0 +1,54 @@
+Enter the record for student number: 1
+Enter the quiz grades (out of 10): 7
+10
+Enter the midterm and final exam grades (out of 100): 90
+95
+The record for student number: 1
+The quiz grades are: 7 10
+The midterm and exam grades are: 90 95
+The numeric average is: 91.25
+The letter grade assigned is A
+Enter the record for student number: 2
+Enter the quiz grades (out of 10): 9
+8
+Enter the midterm and final exam grades (out of 100): 90
+80
+The record for student number: 2
+The quiz grades are: 9 8
+The midterm and exam grades are: 90 80
+The numeric average is: 83.75
+The letter grade assigned is B
+Enter the record for student number: 3
+Enter the quiz grades (out of 10): 7
+8
+Enter the midterm and final exam grades (out of 100): 70
+80
+The record for student number: 3
+The quiz grades are: 7 8
+The midterm and exam grades are: 70 80
+The numeric average is: 76.25
+The letter grade assigned is C
+Enter the record for student number: 4
+Enter the quiz grades (out of 10): 5
+8
+Enter the midterm and final exam grades (out of 100): 50
+70
+The record for student number: 4
+The quiz grades are: 5 8
+The midterm and exam grades are: 50 70
+The numeric average is: 63.75
+The letter grade assigned is D
+Enter the record for student number: 5
+Enter the quiz grades (out of 10): 4
+0
+Enter the midterm and final exam grades (out of 100): 40
+35
+The record for student number: 5
+The quiz grades are: 4 0
+The midterm and exam grades are: 40 35
+The numeric average is: 32.50
+The letter grade assigned is F
+
+
+...Program finished with exit code 0
+Press ENTER to exit console.
